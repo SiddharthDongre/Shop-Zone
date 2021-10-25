@@ -1,0 +1,782 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+
+html {
+
+    scroll-behavior: smooth;
+}
+
+body {
+
+    background-color: rgb(195, 231, 243);
+}
+
+
+/* ***** H E A D E R ***** */
+
+/* header  */
+
+#header {
+
+    background-color: white;
+    padding: 15px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: static;
+}
+
+/* header 1 */
+
+/* header 1 > logo */
+
+.header-1-logo i {
+
+    font-size: 35px;
+    color: green;
+}
+
+.header-1-logo-span {
+
+    font-size: 35px;
+    font-weight: 550;
+    padding: 0px 0px 0px 5px;
+}
+
+.header-1-logo-span-zone {
+
+    color: green;
+}
+
+
+/* header 2 */
+
+/* header 2 > form */
+
+.header-2-form form {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-2-form form input {
+
+    height: 40px;
+    width: 350px;
+    outline: none;
+    font-size: 20px;
+    padding: 0px 0px 0px 10px;
+}
+
+.header-2-form form label i {
+
+    font-size: 26px;
+    color: black;
+    background-color: white;
+    padding: 8px;
+    border: 1px solid black;
+    border-left: 0px solid black;
+}
+
+.header-2-form form label i:hover {
+
+    color: green;
+}
+
+
+/* header 3 */
+
+/* header 3 > icons */
+
+.header-3 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-3 div {
+
+    padding: 0px 10px;
+}
+
+.header-3 div i {
+    
+    font-size: 27px;
+}
+
+.header-3 div i:hover {
+
+    color: green;
+}
+
+
+/* ***** NAVBAR ***** */
+
+#navbar {
+
+    background-color: green;
+    box-shadow: 0px 5px 15px 0px #888888;
+    margin-bottom: 10px;
+}
+
+/* class "active" used in js for navbar scroll */
+
+.navbar-active {
+
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 2;
+}
+
+/* navbar 1 */
+/* navbar 1 > ul */
+
+.navbar-1-ul {
+
+    width: 50%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navbar-1-ul li {
+
+    padding: 10px;
+}
+
+.navbar-1-ul li a {
+
+    color: white;
+    padding: 10px;
+    font-size: 26px;
+    font-weight: 800;
+}
+
+.navbar-1-ul li a:hover {
+
+    color: green;
+    background-color: whitesmoke;
+}
+
+
+/* ***** H O M E  1 ***** */
+
+#home-1 {
+
+    height: 400px;
+    background-color: white;
+    /* border: 1px solid black; */
+    margin: 20px 0px 0px 0px;
+}
+
+.mySwiper-home-1 {
+
+    height: 100%;
+}
+
+.swiper-slide {
+
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+
+    height: 100%;
+    width: 100%;
+}
+
+
+/* ***** H O M E  2 ***** */
+
+#home-2 {
+
+    height: 350px;
+    background-color: white;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* home 2 > div 1 > h1 */
+
+.home-2-div-1 h1 {
+
+    font-size: 30px;
+    padding: 23px 0px 15px 75px;
+} 
+
+/* home 2 > div 2 */
+
+.home-2-div-2 {
+
+    height: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.home-2-div-2-img {
+
+    height: 175px;
+    width: 175px;
+    border-radius: 10px;
+    margin: 0px 0px 5px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-2-div-2-img a div img {
+
+    height: 100%;
+    width: 100%;
+}
+
+.home-2-div-2-title {
+
+    text-align: center;
+}
+
+
+/* ***** H O M E  3 ***** */
+
+#home-3 {
+
+    background-color: white;
+    margin: 20px;
+}
+
+/* Swiper JavaScript for home 3 */
+
+.mySwiper-home-3 {
+
+    padding: 0px 15px 15px 15px;
+}
+
+/* home 3 > div 1 > h1 */
+
+.home-3-div-1 h1 {
+
+    font-size: 30px;
+    padding: 23px 0px 15px 75px;
+} 
+
+/* home 3 > div 2 all */
+
+.home-3-div-2-all {
+
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/* ***** H O M E  4 ***** */
+
+#home-4 {
+
+    background-color: white;
+    margin: 20px;
+}
+
+.mySwiper-home-4 {
+
+    padding: 0px 15px 15px 15px;
+}
+
+/* home 4 > div 1 > h1 */
+
+.home-4-div-1 h1 {
+
+    font-size: 30px;
+    padding: 23px 0px 15px 75px;
+} 
+
+/* home 4 > div 2 all */
+
+.home-4-div-2-all {
+
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/* ***** H O M E  5 ***** */
+
+#home-5 {
+
+    height: 300px;
+    /* background-color: white; */
+    margin: 20px;
+}
+
+.home-5-all-add {
+
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-5-add {
+
+    height: 275px;
+    width: 475px;
+    margin: 5px;
+}
+
+.home-5-add img {
+
+    height: 100%;
+    width: 100%;
+}
+
+
+/* ***** H O M E  6 ***** */
+
+#home-6 {
+
+    /* height: 400px; */
+    /* border: 2px solid black; */
+    background-color: white;
+    margin: 20px;
+}
+
+.mySwiper-home-6 {
+
+    padding: 0px 15px 15px 15px;
+}
+
+/* home 6 > div 1 > h1 */
+
+.home-6-div-1 h1 {
+
+    font-size: 30px;
+    padding: 23px 0px 15px 75px;
+} 
+
+/* home 6 > div 2 all */
+
+.home-6-div-2-all {
+
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/* ***** H O M E  7 ***** */
+
+#home-7 {
+
+    /* height: auto; */
+    /* border: 2px solid black; */
+    background-color: rgb(252, 250, 250);
+    margin: 20px;
+}
+
+.mySwiper-home-7 {
+
+    padding: 0px 15px 15px 15px;
+}
+
+/* home 7 > div 1 > h1 */
+
+.home-7-div-1 h1 {
+
+    font-size: 30px;
+    padding: 23px 0px 15px 75px;
+}
+
+/* home 7 > div 2 all */
+
+.home-7-div-2-all {
+
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home-7-div-2-all a img {
+
+    height: 325px;
+    width: 220px;
+}
+
+
+/* ***** H O M E  8 ***** */
+
+#home-8 {
+
+    background-color: white;
+    margin: 20px;
+}
+
+/* home 8 > div 1 > h1 */
+
+.home-8-div-1 h1 {
+
+    font-size: 30px;
+    padding: 23px 0px 15px 75px;
+} 
+
+/* home 8 > div 2 */
+
+.mySwiper-home-8 {
+
+    padding: 0px 15px 15px 15px;
+}
+
+/* home 8 > div 2 > all */
+
+.home-8-div-2-all {
+
+    /* margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+    text-align: center;
+}
+
+
+/* ***** H O M E  9 ***** */
+
+#home-9 {
+
+    height: 500px;
+    /* border: 2px solid black; */
+    background-color: #8c8;
+    margin: 20px;
+}
+
+.home-9-div-1 {
+
+    height: 100%;
+}
+
+.mySwiper-home-9 {
+
+    height: 100%;
+}
+
+/* .swiper-slide {
+
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.swiper-slide img {
+
+    height: 100%;
+    width: 100%;
+}
+
+
+/* ***** H O M E  10 ***** */
+
+#home-10 {
+
+    /* height: 400px; */
+    /* border: 2px solid black; */
+    background-color: white;
+    margin: 20px;
+}
+
+/* home 10 > div 1 > h1 */
+
+.home-10-div-1 h1 {
+
+    font-size: 30px;
+    padding: 23px 0px 15px 75px;
+}
+
+/* home 10 > div 2 */
+
+.mySwiper-home-10 {
+
+    padding: 0px 15px 15px 15px;
+}
+
+/* home 10 > div 2 > all */
+
+/* .home-10-div-2-all {
+
+    text-align: center;
+} */
+
+
+/* ***** H O M E  11 ***** */
+
+#home-11 {
+
+    background-color: white;
+    margin: 20px;
+}
+
+/* home 11 > div 1 > h1 */
+
+.home-11-div-1 h1 {
+
+    font-size: 30px;
+    padding: 23px 0px 15px 75px;
+}
+
+/* home 11 > div 2 */
+
+.mySwiper-home-11 {
+
+    padding: 0px 15px 15px 15px;
+}
+
+/* home 11 > div 2 > all */
+
+.home-11-div-2-all {
+
+    text-align: center;
+}
+
+
+/* ***** B A C K   T O   T O P ***** */
+
+#back-to-top {
+
+    background-color: #203447;
+}
+
+#back-to-top div h1 {
+
+    text-align: center;
+    padding: 17px;
+}
+
+#back-to-top div h1 a {
+
+    color: white;
+}
+
+
+/* ***** F O O T E R  1 ***** */
+
+#footer-1 {
+
+    background-color: #232F3E;
+}
+
+/* footer 1 > div 1 > h1 */
+
+.footer-1-div-1 i {
+
+    color: tomato;
+}
+
+.footer-1-div-1 h1 {
+
+    color: white;
+    font-size: 43px;
+    text-align: center;
+    padding: 40px 0px;
+}
+
+/* footer 1 > div 1 > h1 > span */
+
+.footer-1-div-1-span {
+
+    color: tomato;
+}
+
+/* footer 1 > div 2 */
+
+.footer-1-div-2 {
+
+    padding: 10px 0px 30px 0px;
+    line-height: 35px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+/* footer 1 > div 2 > all */
+
+.footer-1-div-2-all h2 {
+
+    color: white;
+    padding: 0px 0px 10px 0px;
+}
+
+.footer-1-div-2-all ul li a {
+
+    color: white;
+    font-size: 17px;
+}
+
+.footer-1-div-2-all ul li a i {
+
+    color: white;
+}
+
+
+/* ***** F O O T E R  2 ***** */
+
+#footer-2 {
+
+    background-color: #18212b;
+}
+
+#footer-2 p {
+
+    color: white;
+    text-align: center;
+    padding: 17px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ***** H O M E  3 ***** */
+
+/* #home-3 {
+
+    background-color: white;
+    margin: 20px;
+} */
+
+/* Swiper JavaScript for home 3 */
+
+/* .mySwiper-home-3 {
+
+    padding: 0px 15px 15px 15px;
+} */
+
+/* home 3 > div 1 > h1 */
+
+/* .home-3-div-1 h1 {
+
+    font-size: 30px;
+    padding: 23px 0px 15px 75px;
+}  */
+
+/* home 3 > div 2 */
+
+/* .home-3-div-2 {
+
+    width: 220px;
+    border: 2px solid black;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* home 3 > div 2 all */
+
+/* .home-3-div-2-all {
+
+    margin: 0px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} */
+
+/* home 3 > div 2 all > img */
+
+/* .home-3-div-2-all a {
+
+    height: 200px;
+    width: 175px;
+    border: 2px solid red;
+} */
+
+/* .home-3-div-2-all img {
+
+    border: 2px solid greenyellow;
+} */
+
+/* home 3 > div 2 all > p */
+
+/* .home-3-div-2-all p {
+
+    font-size: 18px;
+    padding: 5px 10px;
+    align-self: start;
+} */
+
+/* .home-3-div-2-all p a {
+
+    color: #00687a;
+} */
+
+/* home 3 > div 2 all > h3 */
+
+/* .home-3-div-2-all h3 {
+
+    padding: 5px 10px;
+    align-self: start;
+} */
+
+/* home 3 > div 2 all > h3 > i */
+
+/* .home-3-div-2-all h3 i {
+
+    font-size: 15px;
+} */
+
+/* .home-3-div-2-all h3 a {
+
+    font-size: 20px;
+} */
+
+/* .home-3-div-2-all h3 span {
+
+    color: green;
+    font-size: 18px;
+} */
+
+/* home 3 > div 2 all > button */
+
+/* .home-3-div-2-all button {
+
+    border: 2px solid white;
+    border-radius: 7px;
+    padding: 5px 20px;
+    margin: 5px;
+    background-color: brown;
+    font-size: 18px;
+} */
+
+/* .home-3-div-2-all button a {
+
+    color: white;
+} */
